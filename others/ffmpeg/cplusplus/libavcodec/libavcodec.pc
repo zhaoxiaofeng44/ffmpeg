@@ -1,0 +1,14 @@
+prefix=../build/jni/armeabi-v7a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 55.58.103
+Requires: libavutil = 52.76.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -lm -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}

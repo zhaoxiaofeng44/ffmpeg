@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DE244305-75E0-4EDA-B603-CE8A56C6B809}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libLwf</RootNamespace>
+    <ProjectName>liblightwf</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\..\..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\Classes;..;D:\workspace\MyTestGame\others\lightwf;D:\workspace\MyTestGame\others\lightwf\cplusplus;D:\workspace\MyTestGame\others\lightwf\cplusplus\cocos2dx;D:\workspace\MyTestGame\others\lightwf\cplusplus\core;D:\workspace\MyTestGame\others\lightwf\cplusplus\supports;D:\workspace\MyTestGame\others\lightwf\cplusplus\supports\lzma;$(ExcludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <MinimalRebuild>false</MinimalRebuild>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+    <ProjectReference />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx.h" />
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_bitmap.h" />
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_factory.h" />
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_node.h" />
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_particle.h" />
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_resourcecache.h" />
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_textbmfont.h" />
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_textttf.h" />
+    <ClInclude Include="..\cplusplus\core\lwf.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_animation.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_bitmap.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_bitmapex.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_button.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_compat.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_core.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_data.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_eventbutton.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_eventmovie.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_format.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_graphic.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_iobject.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_lwfcontainer.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_movie.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_object.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_particle.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_programobj.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_property.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_renderer.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_text.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_type.h" />
+    <ClInclude Include="..\cplusplus\core\lwf_utility.h" />
+    <ClInclude Include="..\cplusplus\supports\lzma\Alloc.h" />
+    <ClInclude Include="..\cplusplus\supports\lzma\LzmaDec.h" />
+    <ClInclude Include="..\cplusplus\supports\lzma\Types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_bitmap.cpp" />
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_factory.cpp" />
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_node.cpp" />
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_particle.cpp" />
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_resourcecache.cpp" />
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_textbmfont.cpp" />
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_textttf.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_animation.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_bitmap.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_bitmapex.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_button.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_core.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_coredata.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_data.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_event.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_eventbutton.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_eventmovie.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_format.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_graphic.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_input.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_iobject.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_lwfcontainer.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_movie.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_movieat.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_movieop.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_movieprop.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_object.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_particle.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_programobj.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_property.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_text.cpp" />
+    <ClCompile Include="..\cplusplus\core\lwf_utility.cpp" />
+    <ClCompile Include="..\cplusplus\supports\lzma\Alloc.c" />
+    <ClCompile Include="..\cplusplus\supports\lzma\LzmaDec.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

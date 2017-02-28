@@ -1,0 +1,43 @@
+﻿生成启动时间为 2014/4/14 23:23:44。
+     1>项目“D:\workspace\MyTestGame\others\lightwf\project.win32\liblwf.vcxproj”在节点 2 上(Build 个目标)。
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\workspace\MyTestGame\proj.win32\Debug.win32\liblightwf.lib" /NOLOGO Debug.win32\lwf_cocos2dx_bitmap.obj
+         Debug.win32\lwf_cocos2dx_factory.obj
+         Debug.win32\lwf_cocos2dx_node.obj
+         Debug.win32\lwf_cocos2dx_particle.obj
+         Debug.win32\lwf_cocos2dx_resourcecache.obj
+         Debug.win32\lwf_cocos2dx_textbmfont.obj
+         Debug.win32\lwf_cocos2dx_textttf.obj
+         Debug.win32\lwf_animation.obj
+         Debug.win32\lwf_bitmap.obj
+         Debug.win32\lwf_bitmapex.obj
+         Debug.win32\lwf_button.obj
+         Debug.win32\lwf_core.obj
+         Debug.win32\lwf_coredata.obj
+         Debug.win32\lwf_data.obj
+         Debug.win32\lwf_event.obj
+         Debug.win32\lwf_eventbutton.obj
+         Debug.win32\lwf_eventmovie.obj
+         Debug.win32\lwf_format.obj
+         Debug.win32\lwf_graphic.obj
+         Debug.win32\lwf_input.obj
+         Debug.win32\lwf_iobject.obj
+         Debug.win32\lwf_lwfcontainer.obj
+         Debug.win32\lwf_movie.obj
+         Debug.win32\lwf_movieat.obj
+         Debug.win32\lwf_movieop.obj
+         Debug.win32\lwf_movieprop.obj
+         Debug.win32\lwf_object.obj
+         Debug.win32\lwf_particle.obj
+         Debug.win32\lwf_programobj.obj
+         Debug.win32\lwf_property.obj
+         Debug.win32\lwf_text.obj
+         Debug.win32\lwf_utility.obj
+         Debug.win32\Alloc.obj
+         Debug.win32\LzmaDec.obj
+         liblwf.vcxproj -> D:\workspace\MyTestGame\proj.win32\Debug.win32\liblightwf.lib
+     1>已完成生成项目“D:\workspace\MyTestGame\others\lightwf\project.win32\liblwf.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.59

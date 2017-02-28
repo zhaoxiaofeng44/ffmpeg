@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{cf102825-adb2-408c-b00a-b3a5f0f76471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_resourcecache.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_node.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_core.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_movie.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_object.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_particle.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_programobj.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_property.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_renderer.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_text.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_type.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_utility.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_animation.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_bitmap.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_bitmapex.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_button.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_bitmap.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_factory.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_particle.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_textbmfont.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx_textttf.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_data.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_eventbutton.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_eventmovie.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_format.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_graphic.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_iobject.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_lwfcontainer.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\supports\lzma\Alloc.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\cocos2dx\lwf_cocos2dx.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\core\lwf_compat.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\supports\lzma\LzmaDec.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cplusplus\supports\lzma\Types.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_node.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_data.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_resourcecache.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_core.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_movieat.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_textttf.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_bitmap.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_textbmfont.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_movie.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_movieop.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_movieprop.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_object.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_particle.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_programobj.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_property.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_text.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_utility.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_animation.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_bitmap.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_bitmapex.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_button.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_factory.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\cocos2dx\lwf_cocos2dx_particle.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_coredata.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_event.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_eventbutton.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_eventmovie.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_format.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_graphic.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_input.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_iobject.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\core\lwf_lwfcontainer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\supports\lzma\Alloc.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplusplus\supports\lzma\LzmaDec.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
